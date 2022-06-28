@@ -1,0 +1,33 @@
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+button{
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.btnsalvar {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40%;
+    
+}
+.btncancelar {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40%;
+    background-color: red;
+    color: white;
+    
+}
+
+.bannerCadastro{
+    width: 50%;
+}
+

@@ -1,0 +1,27 @@
+.mat-elevation-z8{
+    width: 25%;
+   
+    height: 450px;
+    margin-left: 36%;
+    margin-top: -449px;
+
+  }
+
+  .full-width-table {
+    width: 100%;
+  }
+
+  .title-card{
+    font-size: 17px;
+    font-family: "Roboto","Arial",sans-serif; 
+    color: aliceblue;
+    background-color: rgb(212, 218, 218);
+    align-items: center;
+    
+  }
+
+  .title-card p{
+    
+    text-align: center;
+    
+  }

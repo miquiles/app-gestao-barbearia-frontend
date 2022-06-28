@@ -1,0 +1,58 @@
+<mat-card class="bannerCadastro">
+
+    <mat-card-title> Novo Cliente </mat-card-title>
+    <form>
+      
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="cliente.firstName" name="nome"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Segundo nome" [(ngModel)]="cliente.secondName" name="sobrenome"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Documento" [(ngModel)]="cliente.document" name="documento"> 
+        </mat-form-field>
+
+        
+        <mat-form-field>
+            <input type="email" matInput placeholder="Ex. pat@example.com" [(ngModel)]="cliente.mail" name="email"> 
+          
+        </mat-form-field>
+
+       
+<!-- 
+        <mat-form-field>
+         <input matInput [matDatepicker]="picker" placeholder="Data Nascimento" [(ngModel)]="cliente.bornDate" name="bornDate">
+       
+         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+         <mat-datepicker #picker></mat-datepicker>
+
+        </mat-form-field> -->
+
+            
+        <mat-form-field>
+            <input matInput placeholder="Data Nascimento" [(ngModel)]="cliente.bornDate" name="bornDate"> 
+        </mat-form-field>
+    
+        <mat-form-field>
+            <input matInput placeholder="DDD" [(ngModel)]="cliente.ddd" name="ddd"> 
+        </mat-form-field>
+
+        
+        <mat-form-field>
+            <input matInput placeholder="Telefone" [(ngModel)]="cliente.numberPhone" name="telefone" > 
+        </mat-form-field>
+
+      
+
+
+    </form>
+
+
+
+<button class="btnsalvar" (click)="createCliente()" mat-raised-button color="primary">Salvar</button>
+<button class="btncancelar" (click)="cancel()" mat-raised-button>Cancelar</button>
+</mat-card>
+

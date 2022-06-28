@@ -1,0 +1,154 @@
+
+
+.cards-home{
+  display: flex;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  flex-wrap: wrap;
+  background-color: #eeeeee;
+
+
+}
+
+.ico-home{
+  margin-left: 0px;
+  margin-top: 0px;
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 13px;
+}
+
+
+
+.txt-resumo{
+  font-size: 20px;
+  margin-top: 0px;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.cards{
+
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.cards-money{
+
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-left: 40px;
+  color: #ffffff;
+  background-color: #69ddb6;
+}
+
+.cards-money p{
+  font-size: 30px;
+  font-family: "Roboto","Arial",sans-serif; 
+}
+
+
+.cards-atendimento{
+
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #a5b3fe;
+}
+
+.cards-cadastro{
+
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-left: 40px;
+  color: #fffefe;
+  background-color: #ff5991;
+}
+
+.cards-aniversario{
+
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  margin-left: 40px;
+  color: #fffefe;
+  background-color: #ffc96f;
+}
+
+.cards-atendimento p{
+  font-size: 30px;
+  
+}
+
+.cards-aniversario p{
+  font-size: 30px;
+  
+}
+.cards-cadastro p{
+  font-size: 30px;
+  
+}
+
+
+
+.cards p{
+  font-size: 20px;
+  font-weight: 200;
+  font-family:"Roboto","Arial",sans-serif;
+  
+  color: #4b9cff;
+  font-family: "Roboto","Arial",sans-serif;
+ 
+}
+
+.mat-card-title.txt-cards{  
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Mukta', sans-serif;
+  margin-top: -47px;
+  color: #f8f8f8;
+}
+
+
+
+.icone{
+width: 10px;
+height: 100px;
+}
+
+
+.cliente-read{
+  margin-top: 60px;
+  width: 50%;
+}
+
+.os-read{
+  margin-top: 60px;
+  width: 50%;
+  background-color:#a5b3fe ;
+ 
+}
+
+.results{
+
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
