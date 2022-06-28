@@ -6,7 +6,7 @@
   margin-bottom: 10px;
   margin-left: 0px;
   flex-wrap: wrap;
-  background-color: #eeeeee;
+  background-color:#f7fafc;;
 
 
 }
@@ -36,6 +36,7 @@
   height: 40px;
   text-align: center;
   margin-left: 40px;
+  
 }
 
 .cards-money{
@@ -44,13 +45,16 @@
   height: 40px;
   text-align: center;
   margin-left: 40px;
-  color: #ffffff;
-  background-color: #69ddb6;
+  color: #074b8a;
+
+ 
 }
 
 .cards-money p{
   font-size: 30px;
   font-family: "Roboto","Arial",sans-serif; 
+  margin-top: 0px;
+  
 }
 
 
@@ -59,9 +63,8 @@
   width: 20%;
   height: 40px;
   text-align: center;
-  color: #ffffff;
+  color: #074b8a;
 
-  background-color: #a5b3fe;
 }
 
 .cards-cadastro{
@@ -70,8 +73,8 @@
   height: 40px;
   text-align: center;
   margin-left: 40px;
-  color: #fffefe;
-  background-color: #ff5991;
+  color: #074b8a;
+ 
 }
 
 .cards-aniversario{
@@ -80,12 +83,12 @@
   height: 40px;
   text-align: center;
   margin-left: 40px;
-  color: #fffefe;
-  background-color: #ffc96f;
+  color: #074b8a;
 }
 
 .cards-atendimento p{
   font-size: 30px;
+
   
 }
 
@@ -126,9 +129,10 @@ height: 100px;
 }
 
 
-.cliente-read{
-  margin-top: 60px;
-  width: 50%;
+.os-create{
+  margin: auto;
+ width: 50%;
+ margin-top: 5%;
 }
 
 .os-read{
