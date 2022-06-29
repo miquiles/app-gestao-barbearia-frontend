@@ -68,17 +68,44 @@
 
 </section>
 
-<div class="results">
+<div class="form-inicio">
 
-  <div class="os-create">
-   <app-os-create></app-os-create>
+<div class="titulo">
+  <mat-card-title style=" margin: auto;
+color: #074b8a; margin-bottom:10px ; font-size:30px;"> Atendimento </mat-card-title>
+</div>
+
+<div class="novo-cliente">
+<button mat-raised-button (click)="navigateToClientCreate()" color="primary">
+  Novo Cliente
+  <i class="material-icons">
+
+      add
+
+  </i>
+
+</button>
+<!-- 
+</div>
+<div class="cliente-pesquisa-home">
+<app-cliente-pesquisa></app-cliente-pesquisa>
+</div> -->
+
+  
+    <div class="os-create">
+    <app-os-create></app-os-create>
+    </div>
   </div>
+  
+  <!-- <div class="cliente-pesquisa-home">
+    <app-cliente-pesquisa></app-cliente-pesquisa>
+   </div> -->
 
   <!-- <div class="os-read">
     <app-os-read></app-os-read>
   </div> -->
 
-</div>
+
 
 <!-- <app-cliente-qtd-dias-atendimento></app-cliente-qtd-dias-atendimento>
 <app-cliente-aniversario></app-cliente-aniversario> -->

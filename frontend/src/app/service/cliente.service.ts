@@ -1,9 +1,10 @@
+import { Cliente } from './../model/cliente.model';
 import { Injectable } from '@angular/core';
 import { Router} from '@angular/router'
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { EMPTY, Observable } from 'rxjs';
-import { Cliente } from '../model/cliente.model';
+
 import { catchError, map } from 'rxjs/operators';
 
 @Injectable({
@@ -51,7 +52,19 @@ export class ClienteService {
         );
   
     }
+
     
+
+    getData(){
+      return this.http.get("http://localhost:8080/person/list-clients")
+      .pipe(
+        map((response:[]) => response.map(item => item['firstName']))
+       
+      )
+      
+    }
+
+
 
 
 

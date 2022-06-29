@@ -24,7 +24,6 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { HttpClientModule} from '@angular/common/http';
 
-import { FormsModule} from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './views/components/product/product-read/product-read.component';
@@ -48,6 +47,10 @@ import { OSCreateComponent } from './views/components/OS/os-create/os-create.com
 
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { ClientePesquisaComponent } from './views/components/cliente/cliente-pesquisa/cliente-pesquisa.component';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 
@@ -75,11 +78,13 @@ registerLocaleData(localePt);
     ClienteQtdDiasAtendimentoComponent,
     ClienteAniversarioComponent,
     OSCreateComponent,
+    ClientePesquisaComponent,
 
     
     
   ],
   imports: [
+    FormsModule, 
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -96,7 +101,9 @@ registerLocaleData(localePt);
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatDatepickerModule, 
+    MatDatepickerModule,
+    MatAutocompleteModule, 
+    ReactiveFormsModule,
     MatNativeDateModule
   
 
